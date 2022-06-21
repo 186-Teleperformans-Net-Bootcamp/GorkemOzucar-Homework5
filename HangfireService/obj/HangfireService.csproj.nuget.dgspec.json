@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sg_oz\\Documents\\GitHub\\GorkemOzucar-Homework5\\HangfireService\\HangfireService.csproj": {}
+    "C:\\Users\\sg_oz\\Desktop\\patikabootcamp\\Homeworks\\HW5\\HangfireService\\HangfireService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sg_oz\\Documents\\GitHub\\GorkemOzucar-Homework5\\HangfireService\\HangfireService.csproj": {
+    "C:\\Users\\sg_oz\\Desktop\\patikabootcamp\\Homeworks\\HW5\\HangfireService\\HangfireService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sg_oz\\Documents\\GitHub\\GorkemOzucar-Homework5\\HangfireService\\HangfireService.csproj",
+        "projectUniqueName": "C:\\Users\\sg_oz\\Desktop\\patikabootcamp\\Homeworks\\HW5\\HangfireService\\HangfireService.csproj",
         "projectName": "HangfireService",
-        "projectPath": "C:\\Users\\sg_oz\\Documents\\GitHub\\GorkemOzucar-Homework5\\HangfireService\\HangfireService.csproj",
+        "projectPath": "C:\\Users\\sg_oz\\Desktop\\patikabootcamp\\Homeworks\\HW5\\HangfireService\\HangfireService.csproj",
         "packagesPath": "C:\\Users\\sg_oz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sg_oz\\Documents\\GitHub\\GorkemOzucar-Homework5\\HangfireService\\obj\\",
+        "outputPath": "C:\\Users\\sg_oz\\Desktop\\patikabootcamp\\Homeworks\\HW5\\HangfireService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sg_oz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\sg_oz\\Documents\\GitHub\\GorkemOzucar-Homework5\\Homework5\\Homework5.csproj": {
-                "projectPath": "C:\\Users\\sg_oz\\Documents\\GitHub\\GorkemOzucar-Homework5\\Homework5\\Homework5.csproj"
+              "C:\\Users\\sg_oz\\Desktop\\patikabootcamp\\Homeworks\\HW5\\Homework5\\Homework5.csproj": {
+                "projectPath": "C:\\Users\\sg_oz\\Desktop\\patikabootcamp\\Homeworks\\HW5\\Homework5\\Homework5.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\sg_oz\\Documents\\GitHub\\GorkemOzucar-Homework5\\Homework5\\Homework5.csproj": {
+    "C:\\Users\\sg_oz\\Desktop\\patikabootcamp\\Homeworks\\HW5\\Homework5\\Homework5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sg_oz\\Documents\\GitHub\\GorkemOzucar-Homework5\\Homework5\\Homework5.csproj",
+        "projectUniqueName": "C:\\Users\\sg_oz\\Desktop\\patikabootcamp\\Homeworks\\HW5\\Homework5\\Homework5.csproj",
         "projectName": "Homework5",
-        "projectPath": "C:\\Users\\sg_oz\\Documents\\GitHub\\GorkemOzucar-Homework5\\Homework5\\Homework5.csproj",
+        "projectPath": "C:\\Users\\sg_oz\\Desktop\\patikabootcamp\\Homeworks\\HW5\\Homework5\\Homework5.csproj",
         "packagesPath": "C:\\Users\\sg_oz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sg_oz\\Documents\\GitHub\\GorkemOzucar-Homework5\\Homework5\\obj\\",
+        "outputPath": "C:\\Users\\sg_oz\\Desktop\\patikabootcamp\\Homeworks\\HW5\\Homework5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sg_oz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -137,6 +137,10 @@
             "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
               "version": "[6.0.5, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

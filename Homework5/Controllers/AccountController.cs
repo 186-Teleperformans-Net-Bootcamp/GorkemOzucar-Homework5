@@ -10,6 +10,7 @@ using System.Security.Claims;
 using System.Text;
 using Homework5.Data;
 using Homework5.Models;
+using Homework5.Business.Abstracts;
 
 namespace Account.Controllers
 {
@@ -22,8 +23,9 @@ namespace Account.Controllers
         private readonly UserManager<IdentityUser> _userManager;
         private readonly TokenOption tokenOption;
         private readonly AppDbContext _context;
-        public AccountController(UserManager<IdentityUser> userManager,AppDbContext context, IOptions<TokenOption>options) =>
-            (_userManager, tokenOption) = (userManager, options.Value);
+        private readonly IRabbitmqService _rabbitmqMagager;
+        public AccountController(UserManager<IdentityUser> userManager,AppDbContext context,IRabbitmqService rabbitmqManager, IOptions<TokenOption>options) =>
+            (_userManager, _rabbitmqMagager, tokenOption) = (userManager, rabbitmqManager, options.Value);
 
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] UserLoginDto login)
@@ -75,7 +77,7 @@ namespace Account.Controllers
             {
                 return BadRequest(result.Errors.Select(x=>x));
             }
-
+            _rabbitmqMagager.Publish(user, "direct", "direct.test", "direct.queuName", "direct.test.key");
             return Ok("User Created");
         }
 

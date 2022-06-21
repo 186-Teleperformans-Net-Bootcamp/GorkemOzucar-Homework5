@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework5", "Homework5\Homework5.csproj", "{B13937A7-48EB-4539-9027-AB34AA55AC8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangfireService", "HangfireService\HangfireService.csproj", "{B403BA4D-6258-4F89-A9A2-FD948A48FFE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangfireService", "HangfireService\HangfireService.csproj", "{B403BA4D-6258-4F89-A9A2-FD948A48FFE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeWorker", "ConsumeWorker\ConsumeWorker.csproj", "{7493FD66-A12A-416F-8748-531E6C044928}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B403BA4D-6258-4F89-A9A2-FD948A48FFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B403BA4D-6258-4F89-A9A2-FD948A48FFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B403BA4D-6258-4F89-A9A2-FD948A48FFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7493FD66-A12A-416F-8748-531E6C044928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7493FD66-A12A-416F-8748-531E6C044928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7493FD66-A12A-416F-8748-531E6C044928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7493FD66-A12A-416F-8748-531E6C044928}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

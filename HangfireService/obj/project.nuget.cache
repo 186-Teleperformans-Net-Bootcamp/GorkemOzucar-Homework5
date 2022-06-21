@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Iwr3zAYKRM18Cd1us9pZkMBzruserYxR8LbvHKKT8eO1CgwCBi5B2ur3bUf4Yq902Gbcq64J0tTdi/rAaqPqlg==",
+  "dgSpecHash": "6YR5mNLGEoAnzcLKfIFWO8LnAdh+82gqU43tX09Ec+w0871tF6U9g8bxFGm55sd7xNZ2CrjgKuA/+3esJRXOyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sg_oz\\Documents\\GitHub\\GorkemOzucar-Homework5\\HangfireService\\HangfireService.csproj",
+  "projectFilePath": "C:\\Users\\sg_oz\\Desktop\\patikabootcamp\\Homeworks\\HW5\\HangfireService\\HangfireService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sg_oz\\.nuget\\packages\\hangfire\\1.7.30\\hangfire.1.7.30.nupkg.sha512",
     "C:\\Users\\sg_oz\\.nuget\\packages\\hangfire.aspnetcore\\1.7.30\\hangfire.aspnetcore.1.7.30.nupkg.sha512",
@@ -64,6 +64,7 @@
     "C:\\Users\\sg_oz\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\sg_oz\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
     "C:\\Users\\sg_oz\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.0\\pipelines.sockets.unofficial.2.2.0.nupkg.sha512",
+    "C:\\Users\\sg_oz\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
     "C:\\Users\\sg_oz\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\sg_oz\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\sg_oz\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -82,6 +83,7 @@
     "C:\\Users\\sg_oz\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
     "C:\\Users\\sg_oz\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.0\\system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
     "C:\\Users\\sg_oz\\.nuget\\packages\\system.io.pipelines\\5.0.0\\system.io.pipelines.5.0.0.nupkg.sha512",
+    "C:\\Users\\sg_oz\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\sg_oz\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
     "C:\\Users\\sg_oz\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\sg_oz\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
@@ -93,6 +95,7 @@
     "C:\\Users\\sg_oz\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\sg_oz\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\sg_oz\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\sg_oz\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
     "C:\\Users\\sg_oz\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": []
